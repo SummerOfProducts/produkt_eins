@@ -12,7 +12,7 @@ update meteor up config:
   "servers": [
     {
       "host": "hostname",
-      /*"username": "root",*/
+      "username": "root"
       /*"password": "password"*/
       // or pem file (ssh based authentication)
       "pem": "~/.ssh/id_rsa"
