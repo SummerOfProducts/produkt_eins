@@ -2,11 +2,11 @@
   // Server authentication info
   "servers": [
     {
-      "host": "hostname",
+      "host": "46.101.239.29",
       "username": "root",
-      "password": "password"
+      /*"password": "password"*/
       // or pem file (ssh based authentication)
-      //"pem": "~/.ssh/id_rsa"
+      "pem": "~/.ssh/id_rsa"
     }
   ],
 
@@ -22,19 +22,19 @@
   // Install PhantomJS in the server
   "setupPhantom": true,
 
-  // Show a progress bar during the upload of the bundle to the server. 
+  // Show a progress bar during the upload of the bundle to the server.
   // Might cause an error in some rare cases if set to true, for instance in Shippable CI
   "enableUploadProgressBar": true,
 
   // Application name (No spaces)
-  "appName": "meteor",
+  "appName": "produkt_eins",
 
   // Location of app (local directory)
-  "app": "/path/to/the/app",
+  "app": "/Users/christian/projects/meteor/produkt_eins",
 
   // Configure environment
   "env": {
-    "ROOT_URL": "http://myapp.com"
+    "ROOT_URL": "http://46.101.239.29"
   },
 
   // Meteor Up checks if the app comes online just after the deployment
