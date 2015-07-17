@@ -1,0 +1,22 @@
+@import "client/lib/bootstrap/custom/custom.bootstrap.import.less";
+
+.navbar {
+  .navbar-brand {
+    img {
+      height: 100%;
+    }
+  }
+  .navbar-nav {
+    li {
+      a {
+        @border-bottom: 2px;
+        text-transform: uppercase;
+        border-bottom: @border-bottom solid transparent;
+        padding-bottom: @navbar-padding-vertical - @border-bottom;
+      }
+      &.active a, a:hover {
+        border-color: white;
+      }
+    }
+  }
+}
