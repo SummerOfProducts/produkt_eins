@@ -2,7 +2,7 @@
   // Server authentication info
   "servers": [
     {
-      "host": "46.101.246.60",
+      "host": "CHANGE ME",
       "username": "root",
       /*"password": "password"*/
       // or pem file (ssh based authentication)
@@ -30,7 +30,7 @@
   "appName": "produkt_eins",
 
   // Location of app (local directory)
-  "app": "/Users/christian/projects/meteor/produkt_eins",
+  "app": "/CHANGE_ME/produkt_eins",
 
   // Configure environment
   "env": {
