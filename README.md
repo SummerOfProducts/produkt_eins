@@ -1,12 +1,12 @@
 # produkt_eins
 
 ## Preparation
-- install meteor: curl https://install.meteor.com/ | sh
-- install meteor up: npm install -g mup
+- install meteor: `curl https://install.meteor.com/ | sh`
+- install meteor up: `npm install -g mup`
 - generate (or have) a ssh key WITHOUT PASSPHRASE
 
 ## Configruration
-- copy meteor up config (.deploy/mup.json_template -> .deploy/mup.json)
+- copy meteor up config (`.deploy/mup.json_template` -> `.deploy/mup.json`)
 - change some keys
     - servers:host
     - servers:pem (where is your ssh key WITHOUT PASSPHRASE)
