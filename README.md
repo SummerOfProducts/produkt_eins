@@ -9,10 +9,10 @@
 ## Configuration
 - copy meteor up config (`.deploy/mup.json_template` -> `.deploy/mup.json`)
 - change some keys
-    - servers:host
+    - servers:host (`summerofproducts.de`)
     - servers:pem (where is your ssh key WITHOUT PASSPHRASE)
     - app (hint: pwd)
-    - env:ROOT_URL
+    - env:ROOT_URL (`http://www.summerofproducts.de`)
 
 ## Push
 - ask Christian to add you to the organization (needs your github username)
