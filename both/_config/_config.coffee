@@ -1,0 +1,2 @@
+@Config =
+  name: 'Produkt Eins'

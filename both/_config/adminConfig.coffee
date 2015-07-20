@@ -1,0 +1,2 @@
+@AdminConfig =
+  name: Config.name
